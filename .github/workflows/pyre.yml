@@ -18,7 +18,7 @@ name: Pyre
 on:
   workflow_dispatch:
   push:
-    branches: [ "main", BugBountyTrainingBranchProtectionRule ]
+    branches: [ "main", "aNerdFromDuval-dev" ]
   pull_request:
     branches: [ "main" ]
 
